@@ -3177,10 +3177,10 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://sourcebucket.s3.bitiful.net/img/dm14.webp);
-    --darkmode-bg:url(https://sourcebucket.s3.bitiful.net/img/yuanshen1.webp);
-    --mobileday-bg: url(https://sourcebucket.s3.bitiful.net/img/snow.webp);
-    --mobilenight-bg: url(https://sourcebucket.s3.bitiful.net/img/mb8.webp);
+    --default-bg: url(https://apir.yuncan.xyz/light.php);
+    --darkmode-bg:url(https://apir.yuncan.xyz/dark.php);
+    --mobileday-bg: url(https://apir.yuncan.xyz/light.php);
+    --mobilenight-bg: url(https://apir.yuncan.xyz/dark.php);
   }`;
 }
 // 切换背景主函数

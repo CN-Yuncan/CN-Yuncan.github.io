@@ -6582,43 +6582,43 @@ blockquote.pullquote.right {
 /* 字体引入 */
 @font-face {
   font-family: YSHST;
-  src: url(https://data-static.netdun.net/Fomalhaut/fonts/优设好身体.woff2);
+  src: url(https://papi.yuncan.xyz/fonts/优设好身体.woff2);
   font-display: swap;
 }
 
 @font-face {
   font-family: MiSans;
-  src: url(https://data-static.netdun.net/Fomalhaut/fonts/MiSans.woff2);
+  src: url(https://papi.yuncan.xyz/fonts/MiSans.woff2);
   font-display: swap;
 }
 
 @font-face {
   font-family: HYTMR;
-  src: url(https://data-static.netdun.net/Fomalhaut/fonts/HYTangMeiRen55W.woff2);
+  src: url(https://papi.yuncan.xyz/fonts/HYTangMeiRen55W.woff2);
   font-display: swap;
 }
 
 @font-face {
   font-family: LXGW;
-  src: url(https://data-static.netdun.net/Fomalhaut/fonts/霞鹜文楷.woff2);
+  src: url(https://papi.yuncan.xyz/fonts/霞鹜文楷.woff2);
   font-display: swap;
 }
 
 @font-face {
   font-family: TTQHB;
-  src: url(https://data-static.netdun.net/Fomalhaut/fonts/甜甜圈海报字体.woff2);
+  src: url(https://papi.yuncan.xyz/fonts/甜甜圈海报字体.woff2);
   font-display: swap;
 }
 
 @font-face {
   font-family: Consolas_1;
-  src: url(https://data-static.netdun.net/Fomalhaut/fonts/Consolas.woff2);
+  src: url(https://papi.yuncan.xyz/fonts/Consolas.woff2);
   font-display: swap;
 }
 
 @font-face {
   font-family: ZhuZiAWan;
-  src: url(https://data-static.netdun.net/Fomalhaut/fonts/ZhuZiAWan2.woff2);
+  src: url(https://papi.yuncan.xyz/fonts/ZhuZiAWan2.woff2);
   font-display: swap;
 }
 
@@ -7701,13 +7701,15 @@ button#go-up:hover #percent {
 
 /* 个人信息卡片背景图 */
 [data-theme="light"] #aside-content > .card-widget.card-info {
-  background-image: url(https://tuchuang.voooe.cn/images/2023/02/28/springBg.png);
+  background-image: url(https://papi.yuncan.xyz/light.jpg);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
+
 }
+
 [data-theme="dark"] #aside-content > .card-widget.card-info {
-  background-image: url(https://papi.yuncan.xyz/night.jpg);
+  background-image: url(https://papi.yuncan.xyz/dark.jpg);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
@@ -7773,7 +7775,7 @@ input#pic-link {
 
 /* heo 加载动画头像 */
 .loading-img {
-  background: url(https://yuncan.xyz/images/icon/favicon.ico)
+  background: url(https://papi.yuncan.xyz/500.png)
     no-repeat center center;
   background-size: cover;
 }
@@ -9200,7 +9202,7 @@ figure.highlight pre .deletion {
 }
 
 #newYear .item-headline {
-  display: none;
+  display: block;
 }
 
 #newYear-main {
