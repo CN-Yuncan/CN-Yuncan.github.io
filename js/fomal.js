@@ -2718,7 +2718,7 @@ var newYear = () => {
   clearTimeout(newYearTimer);
   if (!document.querySelector('#newYear')) return;
   // 新年时间戳 and 星期对象
-  let newYear = new Date('2023-02-10 00:00:00').getTime() / 1000,
+  let newYear = new Date('2024-02-10 00:00:00').getTime() / 1000,
       week = { 0: '周日', 1: '周一', 2: '周二', 3: '周三', 4: '周四', 5: '周五', 6: '周六' }
 
   time();
@@ -2774,10 +2774,10 @@ var newYear = () => {
   });
 }
 // Pjax适配：若没有开启Pjax这里直接是newYear()即可
-newYear()
+// newYear()
 // 开了Pjax的用以下两句
-// document.addEventListener('pjax:complete', newYear);
-// document.addEventListener('DOMContentLoaded', newYear);
+document.addEventListener('pjax:complete', newYear);
+document.addEventListener('DOMContentLoaded', newYear);
 
 /* 新年倒计时 end */
 
@@ -2807,8 +2807,8 @@ function createtime() {
   let currentTimeHtml = "";
   (currentTimeHtml =
       hnum < 18 && hnum >= 9
-          ? `<img class='boardsign' src='http://papi.yuncan.xyz/%E5%B0%8F%E7%81%BF-%E4%B8%8A%E8%AF%BE%E6%91%B8%E9%B1%BC%E4%B8%AD.svg' title='什么时候能够实现摸鱼自由呀~'><br> <div style="font-size:13px;font-weight:bold">本站运行 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 若当时发射旅行者 1 号，则将距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`
-          : `<img class='boardsign' src='http://papi.yuncan.xyz/%E5%B0%8F%E7%81%BF-%E7%9D%A1%E8%A7%89%E4%BC%91%E6%81%AF%E5%95%A6.svg' title='吃饱了就是睡'><br> <div style="font-size:13px;font-weight:bold">本站运行 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 若当时发射旅行者 1 号，则将距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`),
+          ? `<img class='boardsign' src='https://papi.yuncan.xyz/%E5%B0%8F%E7%81%BF-%E4%B8%8A%E8%AF%BE%E6%91%B8%E9%B1%BC%E4%B8%AD.svg' title='什么时候能够实现摸鱼自由呀~'><br> <div style="font-size:13px;font-weight:bold">本站运行 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 若当时发射旅行者 1 号，则将距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`
+          : `<img class='boardsign' src='https://papi.yuncan.xyz/%E5%B0%8F%E7%81%BF-%E7%9D%A1%E8%A7%89%E4%BC%91%E6%81%AF%E5%95%A6.svg' title='吃饱了就是睡'><br> <div style="font-size:13px;font-weight:bold">本站运行 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 若当时发射旅行者 1 号，则将距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`),
   document.getElementById("workboard") &&
   (document.getElementById("workboard").innerHTML = currentTimeHtml);
 }
