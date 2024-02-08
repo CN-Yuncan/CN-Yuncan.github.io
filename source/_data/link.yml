@@ -1,0 +1,14 @@
+- class_name: 0.推荐网站🍔
+  class_desc: 这里是最熟悉的小伙伴或者赞助商，当然是最前排啦
+  link_list:
+    - name: 果果小站
+      link: https://xn--bsr.cn/
+      avatar: https://www.ecpan.cn/sfs/file?digest=fid72486173df6c8fe6f83642539c6e64de
+      descr: 人生如梦，一尊还酹江月。
+      siteshot: https://papi.yuncan.xyz/siteshot/%E6%9E%9C%E5%AD%90.png
+    - name: TomyJan
+      link: https://blog.tomys.top/
+      avatar: https://public-cdn.tomys.top/head.png
+      descr: 一只菜的要死还每天不努力只知道bbll娱乐至死的废柴
+      siteshot: https://papi.yuncan.xyz/siteshot/TomyJan.png
+
