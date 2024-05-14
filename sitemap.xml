@@ -146,7 +146,7 @@
   </url>
   
   <url>
-    <loc>https://blog.yuncan.xyz/box/gallery/index.html</loc>
+    <loc>https://blog.yuncan.xyz/tags/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -164,16 +164,7 @@
   </url>
   
   <url>
-    <loc>https://blog.yuncan.xyz/tags/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.yuncan.xyz/life/games/index.html</loc>
+    <loc>https://blog.yuncan.xyz/life/music/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -191,16 +182,7 @@
   </url>
   
   <url>
-    <loc>https://blog.yuncan.xyz/life/music/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.yuncan.xyz/site/census/index.html</loc>
+    <loc>https://blog.yuncan.xyz/life/games/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -218,6 +200,15 @@
   </url>
   
   <url>
+    <loc>https://blog.yuncan.xyz/personal/love/index.html</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.yuncan.xyz/social/fcircle/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
@@ -227,7 +218,16 @@
   </url>
   
   <url>
-    <loc>https://blog.yuncan.xyz/personal/love/index.html</loc>
+    <loc>https://blog.yuncan.xyz/box/gallery/index.html</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.yuncan.xyz/site/census/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -275,6 +275,13 @@
   </url>
   
   <url>
+    <loc>https://blog.yuncan.xyz/tags/%E5%AE%B5%E5%AE%AB/</loc>
+    <lastmod>2024-05-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.yuncan.xyz/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/</loc>
     <lastmod>2024-05-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -295,13 +302,6 @@
     <priority>0.2</priority>
   </url>
   
-  <url>
-    <loc>https://blog.yuncan.xyz/tags/%E5%AE%B5%E5%AE%AB/</loc>
-    <lastmod>2024-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
   
   <url>
@@ -312,14 +312,14 @@
   </url>
   
   <url>
-    <loc>https://blog.yuncan.xyz/categories/%E8%99%9A%E6%8B%9F%E6%9C%BA/</loc>
+    <loc>https://blog.yuncan.xyz/categories/%E5%AE%B5%E5%AE%AB/</loc>
     <lastmod>2024-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.yuncan.xyz/categories/%E5%AE%B5%E5%AE%AB/</loc>
+    <loc>https://blog.yuncan.xyz/categories/%E8%99%9A%E6%8B%9F%E6%9C%BA/</loc>
     <lastmod>2024-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
