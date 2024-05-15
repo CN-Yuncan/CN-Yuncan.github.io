@@ -44,12 +44,12 @@
     <link href="https://blog.yuncan.xyz/posts/fc.html"/>
     <id>https://blog.yuncan.xyz/posts/fc.html</id>
     <published>2024-05-14T04:21:30.000Z</published>
-    <updated>2024-05-15T02:34:18.824Z</updated>
+    <updated>2024-05-14T09:51:12.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="一、用户创建">一、用户创建</h2><h3 id="1-登录管理员账号">1.登录管理员账号</h3><p><img src="https://papi.yuncan.xyz/notephoto/image-20240513155254738.png" alt="image-20240513155254738"></p><h3 id="2-创建个人账号">2.创建个人账号</h3><p><img src="https://papi.yuncan.xyz/notephoto/image-20240513160810257.png" alt="image-20240513160810257"></p><h3 id="3-登录个人账号">3.登录个人账号</h3><p><img src="https://papi.yuncan.xyz/notephoto/image-20240513160853331.png" alt="image-20240513160853331"></p><h2 id="二、安装虚拟机">二、安装虚拟机</h2><h3 id="1-创建虚拟机">1.创建虚拟机</h3><p>选择上方</p><p><img src="https://papi.yuncan.xyz/notephoto/image-20240513155521325.png" alt="image-20240513155521325"></p><h3 id="2-选择虚拟机配置">2.选择虚拟机配置</h3><p><img src="https://papi.yuncan.xyz/notephoto/image-20240513155623694.png" alt="image-20240513155623694"></p><h3 id="3-挂载光驱">3.挂载光驱</h3><p><img src="https://papi.yuncan.xyz/notephoto/image-20240513155705930.png" alt="image-20240513155705930"></p><h3 id="4-安装系统">4.安装系统</h3><p>选择个人虚拟机，进入VNC远程连接。</p><p><img src="https://papi.yuncan.xyz/notephoto/image-20240513155842465.png" alt="image-20240513155842465"></p><p>进入后，选择左侧边栏第一按钮(Ctrl+Alt+Del)进行重新启动。</p><p>在弹出的安装程序中选择立即安装，同意条款。</p><p>选择自定义安装-加载驱动程序-浏览-选择A盘-选择amd文件夹，进入安装页面后点击下一步。</p><p><img src="https://papi.yuncan.xyz/notephoto/image-20240513160245366.png" alt="image-20240513160245366"></p><p>等待安装完成。</p><p><img src="https://papi.yuncan.xyz/notephoto/image-20240513160349023.png" alt="image-20240513160349023"></p><h2 id="三、挂载Tools">三、挂载Tools</h2><h3 id="1-进行挂载Tools任务">1.进行挂载Tools任务</h3><p>安装后右键虚拟机点击挂载Tools任务</p><p><img src="https://papi.yuncan.xyz/notephoto/image-20240513171246086.png" alt="image-20240513171246086"></p><h3 id="2-安装Tools">2.安装Tools</h3><p>通过VNC连接，进入虚拟机，安装Tools</p><p><img src="https://papi.yuncan.xyz/notephoto/image-20240513180156588.png" alt="image-20240513180156588"></p><h3 id="3-连通网络">3.连通网络</h3><p>Tools安装完成后，点击restart重新启动虚拟机</p><p><img src="https://papi.yuncan.xyz/notephoto/image-20240513180506174.png" alt="image-20240513180506174"></p><p>打开网络适配器设置可看到网络正常连通</p><p><img src="https://papi.yuncan.xyz/notephoto/image-20240513181440961.png" alt="image-20240513181440961"></p>]]></content>
     
     
-    <summary type="html">🎇华为云虚拟机操作与使用。</summary>
+    <summary type="html">🎯华为云虚拟机操作与使用。</summary>
     
     
     
