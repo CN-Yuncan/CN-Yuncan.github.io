@@ -200,15 +200,6 @@
   </url>
   
   <url>
-    <loc>https://blog.yuncan.xyz/box/gallery/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.yuncan.xyz/box/nav/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
@@ -218,7 +209,7 @@
   </url>
   
   <url>
-    <loc>https://blog.yuncan.xyz/life/music/index.html</loc>
+    <loc>https://blog.yuncan.xyz/life/games/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -236,7 +227,16 @@
   </url>
   
   <url>
-    <loc>https://blog.yuncan.xyz/life/games/index.html</loc>
+    <loc>https://blog.yuncan.xyz/life/music/index.html</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.yuncan.xyz/box/gallery/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -272,6 +272,13 @@
 
   
   <url>
+    <loc>https://blog.yuncan.xyz/tags/Markdown/</loc>
+    <lastmod>2024-05-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.yuncan.xyz/tags/Clion/</loc>
     <lastmod>2024-05-17</lastmod>
     <changefreq>weekly</changefreq>
@@ -280,13 +287,6 @@
   
   <url>
     <loc>https://blog.yuncan.xyz/tags/C/</loc>
-    <lastmod>2024-05-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.yuncan.xyz/tags/Markdown/</loc>
     <lastmod>2024-05-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -314,20 +314,6 @@
   </url>
   
   <url>
-    <loc>https://blog.yuncan.xyz/tags/fcircle/</loc>
-    <lastmod>2024-05-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.yuncan.xyz/tags/hexo/</loc>
-    <lastmod>2024-05-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.yuncan.xyz/tags/PHP8-2/</loc>
     <lastmod>2024-05-17</lastmod>
     <changefreq>weekly</changefreq>
@@ -336,6 +322,20 @@
   
   <url>
     <loc>https://blog.yuncan.xyz/tags/OpenCloudOS/</loc>
+    <lastmod>2024-05-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.yuncan.xyz/tags/fcircle/</loc>
+    <lastmod>2024-05-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.yuncan.xyz/tags/hexo/</loc>
     <lastmod>2024-05-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

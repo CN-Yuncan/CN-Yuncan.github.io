@@ -1,4 +1,4 @@
-<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>var tipButtons = document.querySelectorAll('.tip-button')
+var tipButtons = document.querySelectorAll('.tip-button')
 
 function coinAudio() {
     var coinAudio = document.getElementById("coinAudio");
