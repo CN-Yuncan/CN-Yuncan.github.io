@@ -6,7 +6,7 @@
   <link href="https://blog.yuncan.xyz/atom.xml" rel="self"/>
   
   <link href="https://blog.yuncan.xyz/"/>
-  <updated>2024-05-16T02:26:52.276Z</updated>
+  <updated>2024-06-17T02:05:56.594Z</updated>
   <id>https://blog.yuncan.xyz/</id>
   
   <author>
@@ -15,6 +15,81 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>FusionCompute之快照管理(二)</title>
+    <link href="https://blog.yuncan.xyz/posts/fc4.html"/>
+    <id>https://blog.yuncan.xyz/posts/fc4.html</id>
+    <published>2024-06-17T09:41:56.000Z</published>
+    <updated>2024-06-17T02:05:56.594Z</updated>
+    
+    <content type="html"><![CDATA[<p>进入虚拟机VNC界面，新建文本文件test</p><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">touch test</span><br></pre></td></tr></table></figure><p><img src="https://papi.yuncan.xyz/notephoto/clip_image002.png" alt="img"></p><p>进入文件写入随机内容</p><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">vi test</span><br><span class="line"></span><br><span class="line">:wq</span><br></pre></td></tr></table></figure><p><img src="https://papi.yuncan.xyz/notephoto/clip_image004.png" alt="img"></p><p>在平台创建虚拟机快照，选择内存快照</p><p><img src="https://papi.yuncan.xyz/notephoto/clip_image006.png" alt="img"></p><p>快照创建成功后将先前创建的文本删除</p><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rm test</span><br></pre></td></tr></table></figure><p><img src="https://papi.yuncan.xyz/notephoto/clip_image008.png" alt="img"></p><p>此时在快照页点击恢复虚拟机</p><p><img src="https://papi.yuncan.xyz/notephoto/clip_image010.png" alt="img"></p><p>此时回到VNC界面，发现删除的文本又出现了</p><p><img src="https://papi.yuncan.xyz/notephoto/clip_image012.png" alt="img"></p><p>测试结束后，删除该快照，以免占用空间</p><p><img src="https://papi.yuncan.xyz/notephoto/clip_image014.png" alt="img"></p>]]></content>
+    
+    
+    <summary type="html">🎇华为云虚拟机操作与使用。</summary>
+    
+    
+    
+    <category term="虚拟机" scheme="https://blog.yuncan.xyz/categories/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    
+    
+    <category term="虚拟机" scheme="https://blog.yuncan.xyz/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    
+    <category term="FusionCompute" scheme="https://blog.yuncan.xyz/tags/FusionCompute/"/>
+    
+    <category term="华为云" scheme="https://blog.yuncan.xyz/tags/%E5%8D%8E%E4%B8%BA%E4%BA%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>FusionCompute之使用(二)</title>
+    <link href="https://blog.yuncan.xyz/posts/fc3.html"/>
+    <id>https://blog.yuncan.xyz/posts/fc3.html</id>
+    <published>2024-05-27T03:11:35.000Z</published>
+    <updated>2024-06-17T02:05:56.581Z</updated>
+    
+    <content type="html"><![CDATA[<p>在FusionCompute平台创建虚拟机，选择linux的CentOS7.0系统</p><p><img src="https://papi.yuncan.xyz/notephoto/clip_image002.png" alt="img"></p><p>硬盘配置模式选择精简模式</p><p><img src="https://papi.yuncan.xyz/notephoto/clip_image004.png" alt="img"></p><p>此时已经创建完成，进入配置页面，选中硬件-光驱，选择以文件方式挂载光驱，选择CentOS7.0系统的镜像文件</p><p><img src="https://papi.yuncan.xyz/notephoto/image-20240617085433886.png" alt="image-20240617085433886"></p><p>此时进入VNC界面，在左侧边栏第一项选按Ctrl+Alt+Delete组合键以进入系统，此时按Enter键开始安装</p><p><img src="https://papi.yuncan.xyz/notephoto/clip_image008.png" alt="img"></p><p>进入安装程序，此时下滑到底部，选择中文</p><p><img src="https://papi.yuncan.xyz/notephoto/clip_image010.png" alt="img"></p><p>选择安装位置，在Base Environment中选择Server with GUI</p><p><img src="https://papi.yuncan.xyz/notephoto/clip_image012.png" alt="img"></p><p>时区选择上海</p><p><img src="https://papi.yuncan.xyz/notephoto/clip_image014.png" alt="img"></p><p>设置ROOT密码后点击开始安装</p><p><img src="https://papi.yuncan.xyz/notephoto/clip_image016.png" alt="img"></p><p>安装成功后登录账号和密码，进入系统</p><p><img src="https://papi.yuncan.xyz/notephoto/clip_image017.png" alt="img"></p><p>在平台选择挂载Tools</p><p><img src="https://papi.yuncan.xyz/notephoto/clip_image018.png" alt="img"></p><p>在终端输入以下命令，查看是否存在“qemu-guest-agent”服务</p><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ps -eaf | grep qemu-ga</span><br></pre></td></tr></table></figure><p>若存在，则输入以下命令卸载该服务</p><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">rpm -e qemu-guest-agent</span><br><span class="line"></span><br><span class="line">reboot</span><br></pre></td></tr></table></figure><p>卸载服务或者如下图一样发现不存在该服务后，则继续输入以下命令，挂载虚拟机光驱</p><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">mkdir</span> xvdd</span><br><span class="line"></span><br><span class="line">mount /dev/sr0 xvdd</span><br></pre></td></tr></table></figure><p><img src="https://papi.yuncan.xyz/notephoto/clip_image020.png" alt="img"></p><p>安装vmtools后输入reboot重启</p><p><img src="https://papi.yuncan.xyz/notephoto/clip_image022.png" alt="img"></p><p>此时面板显示Tools状态为运行中，说明安装成功</p><p><img src="https://papi.yuncan.xyz/notephoto/clip_image024.png" alt="img"></p>]]></content>
+    
+    
+    <summary type="html">🎇华为云虚拟机操作与使用。</summary>
+    
+    
+    
+    <category term="虚拟机" scheme="https://blog.yuncan.xyz/categories/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    
+    
+    <category term="虚拟机" scheme="https://blog.yuncan.xyz/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    
+    <category term="FusionCompute" scheme="https://blog.yuncan.xyz/tags/FusionCompute/"/>
+    
+    <category term="华为云" scheme="https://blog.yuncan.xyz/tags/%E5%8D%8E%E4%B8%BA%E4%BA%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>FusionCompute之快照管理(一)</title>
+    <link href="https://blog.yuncan.xyz/posts/fc2.html"/>
+    <id>https://blog.yuncan.xyz/posts/fc2.html</id>
+    <published>2024-05-17T10:31:17.000Z</published>
+    <updated>2024-06-17T02:05:56.590Z</updated>
+    
+    <content type="html"><![CDATA[<p>进入虚拟机VNC界面，新建随机内容文本文件</p><p><img src="https://papi.yuncan.xyz/notephoto/clip_image002.jpg" alt="img"></p><p>在平台创建虚拟机快照，选择内存快照</p><p><img src="https://papi.yuncan.xyz/notephoto/clip_image004.jpg" alt="img"></p><p>点击左下角任务图标查看快照创建进度</p><p><img src="https://papi.yuncan.xyz/notephoto/image-20240617084002806.png" alt="image-20240617084002806"></p><p>快照创建成功后将先前创建的文本文档拖入回收站删除</p><p><img src="https://papi.yuncan.xyz/notephoto/clip_image008.png" alt="img"></p><p>此时在快照页点击恢复虚拟机</p><p><img src="https://papi.yuncan.xyz/notephoto/clip_image010.png" alt="img"></p><p>此时回到VNC界面，发现删除的文本文档又出现在桌面了</p><p><img src="https://papi.yuncan.xyz/notephoto/clip_image012.png" alt="img"></p><p>测试结束后，删除该快照，以免占用空间</p><p><img src="https://papi.yuncan.xyz/notephoto/clip_image014.png" alt="img"></p>]]></content>
+    
+    
+    <summary type="html">🎇华为云虚拟机操作与使用。</summary>
+    
+    
+    
+    <category term="虚拟机" scheme="https://blog.yuncan.xyz/categories/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    
+    
+    <category term="虚拟机" scheme="https://blog.yuncan.xyz/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    
+    <category term="FusionCompute" scheme="https://blog.yuncan.xyz/tags/FusionCompute/"/>
+    
+    <category term="华为云" scheme="https://blog.yuncan.xyz/tags/%E5%8D%8E%E4%B8%BA%E4%BA%91/"/>
+    
+  </entry>
   
   <entry>
     <title>博客建站之插件使用范例</title>
@@ -63,25 +138,27 @@
   </entry>
   
   <entry>
-    <title>华为云FusionCompute之使用</title>
-    <link href="https://blog.yuncan.xyz/posts/fc.html"/>
-    <id>https://blog.yuncan.xyz/posts/fc.html</id>
+    <title>FusionCompute之使用(一)</title>
+    <link href="https://blog.yuncan.xyz/posts/fc1.html"/>
+    <id>https://blog.yuncan.xyz/posts/fc1.html</id>
     <published>2024-05-14T04:21:30.000Z</published>
-    <updated>2024-05-14T09:51:12.000Z</updated>
+    <updated>2024-06-17T02:05:56.586Z</updated>
     
     <content type="html"><![CDATA[<h2 id="一、用户创建">一、用户创建</h2><h3 id="1-登录管理员账号">1.登录管理员账号</h3><p><img src="https://papi.yuncan.xyz/notephoto/image-20240513155254738.png" alt="image-20240513155254738"></p><h3 id="2-创建个人账号">2.创建个人账号</h3><p><img src="https://papi.yuncan.xyz/notephoto/image-20240513160810257.png" alt="image-20240513160810257"></p><h3 id="3-登录个人账号">3.登录个人账号</h3><p><img src="https://papi.yuncan.xyz/notephoto/image-20240513160853331.png" alt="image-20240513160853331"></p><h2 id="二、安装虚拟机">二、安装虚拟机</h2><h3 id="1-创建虚拟机">1.创建虚拟机</h3><p>选择上方</p><p><img src="https://papi.yuncan.xyz/notephoto/image-20240513155521325.png" alt="image-20240513155521325"></p><h3 id="2-选择虚拟机配置">2.选择虚拟机配置</h3><p><img src="https://papi.yuncan.xyz/notephoto/image-20240513155623694.png" alt="image-20240513155623694"></p><h3 id="3-挂载光驱">3.挂载光驱</h3><p><img src="https://papi.yuncan.xyz/notephoto/image-20240513155705930.png" alt="image-20240513155705930"></p><h3 id="4-安装系统">4.安装系统</h3><p>选择个人虚拟机，进入VNC远程连接。</p><p><img src="https://papi.yuncan.xyz/notephoto/image-20240513155842465.png" alt="image-20240513155842465"></p><p>进入后，选择左侧边栏第一按钮(Ctrl+Alt+Del)进行重新启动。</p><p>在弹出的安装程序中选择立即安装，同意条款。</p><p>选择自定义安装-加载驱动程序-浏览-选择A盘-选择amd文件夹，进入安装页面后点击下一步。</p><p><img src="https://papi.yuncan.xyz/notephoto/image-20240513160245366.png" alt="image-20240513160245366"></p><p>等待安装完成。</p><p><img src="https://papi.yuncan.xyz/notephoto/image-20240513160349023.png" alt="image-20240513160349023"></p><h2 id="三、挂载Tools">三、挂载Tools</h2><h3 id="1-进行挂载Tools任务">1.进行挂载Tools任务</h3><p>安装后右键虚拟机点击挂载Tools任务</p><p><img src="https://papi.yuncan.xyz/notephoto/image-20240513171246086.png" alt="image-20240513171246086"></p><h3 id="2-安装Tools">2.安装Tools</h3><p>通过VNC连接，进入虚拟机，安装Tools</p><p><img src="https://papi.yuncan.xyz/notephoto/image-20240513180156588.png" alt="image-20240513180156588"></p><h3 id="3-连通网络">3.连通网络</h3><p>Tools安装完成后，点击restart重新启动虚拟机</p><p><img src="https://papi.yuncan.xyz/notephoto/image-20240513180506174.png" alt="image-20240513180506174"></p><p>打开网络适配器设置可看到网络正常连通</p><p><img src="https://papi.yuncan.xyz/notephoto/image-20240513181440961.png" alt="image-20240513181440961"></p>]]></content>
     
     
-    <summary type="html">🎯华为云虚拟机操作与使用。</summary>
+    <summary type="html">🎇华为云虚拟机操作与使用。</summary>
     
     
     
-    <category term="疑难解惑" scheme="https://blog.yuncan.xyz/categories/%E7%96%91%E9%9A%BE%E8%A7%A3%E6%83%91/"/>
+    <category term="虚拟机" scheme="https://blog.yuncan.xyz/categories/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
     
     
-    <category term="华为云" scheme="https://blog.yuncan.xyz/tags/%E5%8D%8E%E4%B8%BA%E4%BA%91/"/>
+    <category term="虚拟机" scheme="https://blog.yuncan.xyz/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
     
     <category term="FusionCompute" scheme="https://blog.yuncan.xyz/tags/FusionCompute/"/>
+    
+    <category term="华为云" scheme="https://blog.yuncan.xyz/tags/%E5%8D%8E%E4%B8%BA%E4%BA%91/"/>
     
   </entry>
   

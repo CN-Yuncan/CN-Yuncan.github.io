@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.yuncan.xyz/posts/fc4.html</loc>
+    <lastmod>2024-06-17</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.yuncan.xyz/posts/fc2.html</loc>
+    <lastmod>2024-06-17</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.yuncan.xyz/posts/fc1.html</loc>
+    <lastmod>2024-06-17</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.yuncan.xyz/posts/fc3.html</loc>
+    <lastmod>2024-06-17</lastmod>
+  </url>
+  <url>
     <loc>https://blog.yuncan.xyz/posts/ophp.html</loc>
     <lastmod>2024-05-16</lastmod>
   </url>
   <url>
     <loc>https://blog.yuncan.xyz/posts/fcircle.html</loc>
     <lastmod>2024-05-16</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.yuncan.xyz/posts/fc.html</loc>
-    <lastmod>2024-05-14</lastmod>
   </url>
   <url>
     <loc>https://blog.yuncan.xyz/posts/yoimiya.html</loc>
